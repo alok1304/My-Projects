@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodSurveyForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="foodSurveyForm">
+        <h1>Food Survey</h1>
+    
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="Ename">Email Id:</label>
+        <input type="text" id="Ename" name="Ename" required>
+    
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+    
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    
+        <label for="favoriteFood">Favorite Food:</label>
+        <input type="text" id="favoriteFood" name="favoriteFood" required>
+
+        <label for="ff">Do You Eat Fast Food : </label>
+        <input type="test" id="ff" name="ff" placeholder="Yes/No">
+    
+        <label for="foodRating">Rate the taste of your favorite food (1-10):</label>
+        <input type="number" id="foodRating" name="foodRating" min="1" max="10" required>
+    
+        <label for="comments">Any additional comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+    
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
