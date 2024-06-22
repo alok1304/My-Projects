@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    /* background-color: rgb(255, 145, 0); */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+}
+
+.box2 {
+    /* border: 2px solid black; */
+    position: relative;
+    top: 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.rect1,
+.rect2,
+.rect3,
+.rect4 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.button {
+
+    border: 2px solid rgb(20, 19, 19);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rgb(192, 192, 255);
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 94px;
+}
+
+input {
+    border: 2px solid rgb(20, 19, 19);
+    width: 331px;
+    height: 53px;
+    font-size: xx-large;
+    border-radius: 15px;
+    background-color: rgb(192, 192, 255);
+}
+
+h1 {
+    position: relative;
+    top: 65px;
+    z-index: 1;
+    font-size: 75px;
+    color: rgb(192, 192, 255);
+    
+}
+
+.box{
+        /* border: 2px solid black; */
+                width: 412px;
+                    height: 524px;
+            position: relative;
+            top: -25px;
+            background-image: url(backgroundimage.jpg);
+            background-size: cover;
+            border-radius: 35px;
+}
